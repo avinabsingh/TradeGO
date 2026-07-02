@@ -8,7 +8,7 @@ const Orders = () => {
 
   useEffect(()=>{
     axios.get(
-  "http://localhost:8080/allOrders",
+  `${process.env.REACT_APP_API_URL}/allOrders`,
   {
     withCredentials: true,
   }

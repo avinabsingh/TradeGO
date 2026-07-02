@@ -36,7 +36,7 @@ const Login = () => {
 
     try {
       const { data } = await axios.post(
-        "http://localhost:8080/login",
+        `${process.env.REACT_APP_API_URL}/login`,
         inputValue,
         {
           withCredentials: true,
@@ -49,7 +49,7 @@ const Login = () => {
         handleSuccess(message);
 
         setTimeout(() => {
-          window.location.href = "http://localhost:3001";
+          window.location.href =process.env.REACT_APP_DASHBOARD_URL;
         }, 1200);
       } else {
         handleError(message);

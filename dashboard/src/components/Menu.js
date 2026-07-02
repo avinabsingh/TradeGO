@@ -142,7 +142,7 @@ const Menu = ({ username }) => {
           color: "#e74c3c",
         }}
         onClick={() => {
-          window.location.href = "http://localhost:3000";
+          window.location.href = process.env.REACT_APP_LANDING_URL;
         }}
       >
         Logout
