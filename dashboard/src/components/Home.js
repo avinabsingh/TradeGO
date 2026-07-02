@@ -20,7 +20,7 @@ const Home = () => {
         );
 
         if (!data.status) {
-          window.location.href = `${process.env.REACT_APP_LANDING_URL/login}`;
+          window.location.href = `${process.env.REACT_APP_LANDING_URL}/login`;
           return;
         }
 
@@ -30,7 +30,7 @@ const Home = () => {
         setLoading(false);
       } catch (error) {
         console.log(error);
-        window.location.href =`${process.env.REACT_APP_LANDING_URL/login}`;
+        window.location.href =`${process.env.REACT_APP_LANDING_URL}/login`;
       }
     };
 
