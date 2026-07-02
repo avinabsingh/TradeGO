@@ -12,7 +12,7 @@ const Home = () => {
     const verifyUser = async () => {
       try {
         const { data } = await axios.post(
-          "http://localhost:8080",
+          `${process.env.REACT_APP_API_URL}`,
           {},
           {
             withCredentials: true,
