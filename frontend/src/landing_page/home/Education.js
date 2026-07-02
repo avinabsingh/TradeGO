@@ -5,7 +5,7 @@ const Education = () => {
     <div className="container p-4 my-4">
       <div className="row p-4 mx-3 my-5">
         <div className="col-5">
-            <img src='media/images/education.svg'/>
+            <img src='media/images/education.svg' alt =""/>
         </div>
         <div className="col-1"></div>
         <div className="col-6">

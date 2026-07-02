@@ -20,7 +20,7 @@ const Stats = () => {
             <p className='mt-3'>With initiatives like Nudge and Kill Switch, we don't just facilitate transactions, but actively help you do better with your money.</p>
           </div>
           <div className="col-6 mt-5 p-4">
-            <img src='media/images/ecosystem.png' style={{width : "90%"}}/>
+            <img src='media/images/ecosystem.png' style={{width : "90%"}} alt=""/>
             <div className='text-center'>
               <a href="/" style={{textDecoration:"none"}}>Explore our products <i class="fa-solid fa-angle-right"></i></a>
               <a href="/" className='mx-4' style={{textDecoration:"none"}}  >Try Kite Demo </a>
