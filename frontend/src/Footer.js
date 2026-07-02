@@ -33,14 +33,14 @@ const Footer = () => {
           <div className="col-md-3 mb-4">
             <h6 className="fw-bold mb-3">Company</h6>
             <ul className="list-unstyled">
-              <li><a href="#" className="text-muted text-decoration-none">About</a></li>
-              <li><a href="#" className="text-muted text-decoration-none">Products</a></li>
-              <li><a href="#" className="text-muted text-decoration-none">Pricing</a></li>
-              <li><a href="#" className="text-muted text-decoration-none">Referral programme</a></li>
-              <li><a href="#" className="text-muted text-decoration-none">Careers</a></li>
-              <li><a href="#" className="text-muted text-decoration-none">TradeGo.tech</a></li>
-              <li><a href="#" className="text-muted text-decoration-none">Press & media</a></li>
-              <li><a href="#" className="text-muted text-decoration-none">TradeGo cares (CSR)</a></li>
+              <li><a href="/" className="text-muted text-decoration-none">About</a></li>
+              <li><a href="/" className="text-muted text-decoration-none">Products</a></li>
+              <li><a href="/" className="text-muted text-decoration-none">Pricing</a></li>
+              <li><a href="/" className="text-muted text-decoration-none">Referral programme</a></li>
+              <li><a href="/" className="text-muted text-decoration-none">Careers</a></li>
+              <li><a href="/" className="text-muted text-decoration-none">TradeGo.tech</a></li>
+              <li><a href="/" className="text-muted text-decoration-none">Press & media</a></li>
+              <li><a href="/" className="text-muted text-decoration-none">TradeGo cares (CSR)</a></li>
             </ul>
           </div>
 
@@ -48,11 +48,11 @@ const Footer = () => {
           <div className="col-md-3 mb-4">
             <h6 className="fw-bold mb-3">Support</h6>
             <ul className="list-unstyled">
-              <li><a href="#" className="text-muted text-decoration-none">Contact</a></li>
-              <li><a href="#" className="text-muted text-decoration-none">Support portal</a></li>
-              <li><a href="#" className="text-muted text-decoration-none">Z-Connect blog</a></li>
-              <li><a href="#" className="text-muted text-decoration-none">List of charges</a></li>
-              <li><a href="#" className="text-muted text-decoration-none">Downloads & resources</a></li>
+              <li><a href="/" className="text-muted text-decoration-none">Contact</a></li>
+              <li><a href="/" className="text-muted text-decoration-none">Support portal</a></li>
+              <li><a href="/" className="text-muted text-decoration-none">Z-Connect blog</a></li>
+              <li><a href="/" className="text-muted text-decoration-none">List of charges</a></li>
+              <li><a href="/" className="text-muted text-decoration-none">Downloads & resources</a></li>
             </ul>
           </div>
 
@@ -60,9 +60,9 @@ const Footer = () => {
           <div className="col-md-3 mb-4">
             <h6 className="fw-bold mb-3">Account</h6>
             <ul className="list-unstyled">
-              <li><a href="#" className="text-muted text-decoration-none">Open an account</a></li>
-              <li><a href="#" className="text-muted text-decoration-none">Fund transfer</a></li>
-              <li><a href="#" className="text-muted text-decoration-none">60 day challenge</a></li>
+              <li><a href="/" className="text-muted text-decoration-none">Open an account</a></li>
+              <li><a href="/" className="text-muted text-decoration-none">Fund transfer</a></li>
+              <li><a href="/" className="text-muted text-decoration-none">60 day challenge</a></li>
             </ul>
           </div>
 
