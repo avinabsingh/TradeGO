@@ -21,7 +21,7 @@ const Orders = () => {
   return (
     <div className="orders">
       <div className="no-orders">
-        {allOrders.length == 0 ? <p>You haven't placed any orders today</p> : <>
+        {allOrders.length === 0 ? <p>You haven't placed any orders today</p> : <>
       <h3 className="title">Orders ({allOrders.length})</h3>
 
       <div className="order-table">
