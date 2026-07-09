@@ -7,7 +7,7 @@ const Holdings = () => {
   const [allHoldings, setAllHoldings] = useState([]);
 
   useEffect(()=>{
-    axios.get(`${process.env.REACT_APP_API_URL}allHoldings`).then((res) => {
+    axios.get(`${process.env.REACT_APP_API_URL}/allHoldings`).then((res) => {
       setAllHoldings(res.data);
       console.log("Successfully fetched all the data from the api!!!")
     })
